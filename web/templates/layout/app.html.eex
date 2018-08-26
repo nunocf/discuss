@@ -27,6 +27,9 @@
                   <li>
                     <%= link "Sign in with Github", to: auth_path(@conn, :request, "github") %>
                   </li>
+                  <li>
+                    <%= link "Sign in with Facebook", to: auth_path(@conn, :request, "facebook") %>
+                  </li>
                 <% end %>
               </ul>
           </div>
